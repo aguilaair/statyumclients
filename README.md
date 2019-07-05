@@ -1,4 +1,4 @@
-# Netlify - Static Generated
+# Now - Static Generated
 
 Generate
 

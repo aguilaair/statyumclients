@@ -1,15 +1,17 @@
 {
-  "name": "statusfy-netlify-sg-example",
-  "description": "Netlify - Static Generated Example",
+  "name": "statusfy-now-sg-example",
+  "description": "Now - Static Generated Example",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
+    "now": "now",
     "dev": "statusfy dev",
     "build": "statusfy build",
     "start": "statusfy start",
     "generate": "statusfy generate",
-    "new-incident": "statusfy new-incident"
+    "new-incident": "statusfy new-incident",
+    "now-build": "yarn run generate"
   },
   "author": {
     "name": "Bazzite",
@@ -27,5 +29,8 @@
   "engines": {
     "node": ">=8.10",
     "npm": ">=5"
+  },
+  "devDependencies": {
+    "now": "^15.0.0"
   }
 }

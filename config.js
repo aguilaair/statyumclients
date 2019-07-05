@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Demo on free tier',
+  title: 'System Status',
   name: 'system_status',
-  description: 'Statyum on free tier'
+  description: 'Now - Static Generated Example'
 };
